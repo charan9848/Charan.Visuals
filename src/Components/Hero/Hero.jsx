@@ -1,7 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.svg";
+import profile_img from "../../assets/profile_img.png";
 const Hero = () => {
   return (
     <div id="home" className="hero">
