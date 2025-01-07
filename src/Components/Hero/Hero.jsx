@@ -1,19 +1,16 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.png";
+import profile_img from "../../assets/Charan.png";
 const Hero = () => {
   return (
     <div id="home" className="hero">
       <img src={profile_img} alt="" />
       <h1>
-        <span>I'm Mamun ,</span> Full Stack Web Developer <br /> based in
-        Bangladesh
+        <span>I'm Charan ,</span> 3d artist <br /> 
       </h1>
       <p>
-        I am a Full Stack Web Developer with 10 years of experience. I can
-        provide clean code and pixel perfect design. I also make the website
-        more & more interactive with web animations.
+      As a 3D artist, I use Blender and After Effects to create visually captivating models, animations, and VFX. My work combines creativity and technical skill to bring concepts to life and exceed client expectations.
       </p>
       <div className="hero-action">
         <div className="hero-connect">

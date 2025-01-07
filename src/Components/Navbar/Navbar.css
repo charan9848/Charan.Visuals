@@ -1,12 +1,17 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 20px 170px;
+  align-items: center; /* Ensure items are vertically centered */
+  margin: 20px 170px; /* Adjust margins as needed */
+  padding: 10px; /* Add padding for better spacing */
+  height: 80px; /* Set a fixed height for the navbar */
 }
 
 .nav-logo {
-  height: 50px;
+  width: 230px; /* Adjust the size as needed */
+  height: auto;
+  cursor: pointer;
+  
 }
 
 .nav-menu {

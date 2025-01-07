@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo png.png";
 import underline from "../../assets/nav_underline.svg";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";

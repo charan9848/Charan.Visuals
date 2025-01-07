@@ -6,8 +6,11 @@
   margin-top: 10px;
 }
 .hero img {
-  margin-top: 30px;
-  width: 200px;
+  margin-top: 50px;
+  width: 250px; /* Adjust the size as needed */
+  height: 250px; /* Ensure the height matches the width for a circle */
+  border-radius: 50%; /* This creates the circular crop */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 .hero h1 {
   text-align: center;
